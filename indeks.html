@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My portofolio | Ade Fitria P</title>
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <!--my css-->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      h1 {
+        text-align: center;
+        color: #a56c2aea;
+      }
+    </style>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: rgb(220, 144, 44 ">
+      <div class="container">
+        <a class="navbar-brand" href="#">Ade Fitria P</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#galery">Galery</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--akhir navbar-->
+
+    <!--jumbotron-->
+    <section class="jumbotron text-center">
+      <img src="img/ade.jpeg" alt="Ade Fitria P" width="150" />
+      <h1 class="display-4">Ade Fitria P | Photographer</h1>
+      <p class="lead">Saya adalah seorang freelancer Photographer .</p>
+    </section>
+    <!--akhir jumbotron-->
+
+    <!--about-->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-between fs-5 text-center">
+          <div class="col-md-4">
+            <p>Saya adalah mahasiswa aktif Program Studi Ilmu Komputer Fakultas Teknik dan Informatika semester 4.</p>
+          </div>
+          <div class="col-md-4">
+            <p>Saya mulai menyukai dunia fotografi sejak Sekolah Menengah Atas. Saat ini saya menjadikan Hobi saya itu sebagai ladang penghasil cuan disela-sela kuliah dengan menjadi freelancer Photographer. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--akhir about-->
+
+    <!--Galery-->
+    <section id="galery">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>My Galery</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/1.jpg" class="card-img-top" alt="Galery 1" />
+              <div class="card-body">
+                <p class="card-text">Moment pemasangan cincin sebagai tanda ikatan ibadah seumur hidup bersama.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/2.jpg" class="card-img-top" alt="Galery 2" />
+              <div class="card-body">
+                <p class="card-text">Moment pengantin wanita yang terlihat sangat bahagia di hari Spesialnya.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/3.jpg" class="card-img-top" alt="Galery 3" />
+              <div class="card-body">
+                <p class="card-text">Tiga komponen indah pelengkap di hari yang Bahagia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--akhir galery-->
+
+    <!--Contact-->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+                
+              <div class="mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="Email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="Pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="Pesan" rows="3"></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--akhir contact-->
+<footer class="bg-warning text-center">
+    <p>Make it easy by Ade Fitria P  </p>
+</footer>
+    <!--footer-->
+
+    <!--akhir footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
